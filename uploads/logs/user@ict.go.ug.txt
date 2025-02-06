@@ -1,0 +1,19 @@
+07/09/23 09:09:39 - user@ict.go.ug was used to login
+07/09/23 09:09:03 - user@ict.go.ug was logged out
+07/09/23 10:09:26 - user@ict.go.ug was used to login
+07/09/23 10:09:40 - user@ict.go.ug was used to open 
+07/09/23 10:09:06 - user@ict.go.ug was logged out
+07/09/23 10:09:51 - user@ict.go.ug was used to login
+07/09/23 10:09:54 - user@ict.go.ug was logged out
+07/09/23 10:09:58 - user@ict.go.ug was used to login
+07/09/23 10:09:05 - user@ict.go.ug was used to send ('hey') to the Chat room 
+07/09/23 10:09:18 - user@ict.go.ug was used to send ('hey') to the Chat room 
+07/09/23 10:09:38 - user@ict.go.ug was used to send ('hey') to the Chat room 
+07/09/23 10:09:45 - user@ict.go.ug was logged out
+07/09/23 10:09:23 - user@ict.go.ug was used to login
+07/09/23 10:09:20 - user@ict.go.ug was used to upload newFile.txt under joint documents
+07/09/23 10:09:26 - user@ict.go.ug was used to open newFile.txt
+07/09/23 10:09:22 - user@ict.go.ug was logged out
+07/09/23 10:09:29 - user@ict.go.ug was used to login
+07/09/23 10:09:41 - user@ict.go.ug was used to download jacob.docx
+07/09/23 10:09:47 - user@ict.go.ug was logged out

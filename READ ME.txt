@@ -1,0 +1,55 @@
+Configuration steps:
+
+step 1: download and install xampp on your system from https://www.apachefriends.org/download.html
+
+step 2: unzip the DMS.zip file from the github repository  
+
+step 3: install the poppins font from the `fonts` folder in DMS
+
+step 4: copy the DMS folder to the htdocs folder inside xampp
+
+step 5: open xampp control panel
+
+step 6: start the mysql and apache servers from the xampp control panel
+
+step 7: open the phpMyAdmin panel from http://localhost/phpmyadmin
+
+step 8: log into the mysql account using 
+	
+	username : root
+	password : 
+
+step 9: create a new database called `moict`
+
+step 10: import the `moict.sql` using the `import button` on the top menu
+
+step 11: choose the file `moict.sql` from the DMS folder imported earlier and follow the wizard
+step 12: open the DMS folder from http://localhost/DMS
+
+step 13: log into the system, or sign up
+
+step 14: log in with either an admin account or a user account
+
+step 15: admin-account:
+
+	email: admin@ict.go.ug
+	password: 1234
+	
+	user-account:
+	
+	email: user@ict.go.ug
+	password: 0000
+
+step 16: possible actions on the system are
+	1. uploading files
+	2. editing (text, word and pdfs), deleting and downloading files
+	3. adding users to the system with a randomly generated password
+	4. viewing documents
+	5. statistical view of monthly uploads
+	6. sending messages
+	7. viewing profile
+	8. audit trail to view what users are doing on the system
+	9. live search of documents based off title
+	10. granting, revoking admin rights and deactivating accounts
+	11. viewing acccount requests
+	12. changing password

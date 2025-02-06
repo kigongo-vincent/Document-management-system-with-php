@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in page</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: poppins;
+        line-height: 1.8;
+        transition: .6s
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        background-color: #343965;
+        color: aliceblue;
+        font-weight: lighter;
+      }
+      .main {
+        background-color: #252a4a;
+        width: 40vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .check {
+        display: flex;
+
+        align-items: center;
+        margin: 20px 0;
+        transform: translateX(-70%);
+        color: #707070;
+      }
+      input[type="submit"] {
+        width: 24vw;
+        background-color: #27adae;
+        color: #252a4a;
+        border: none;
+        padding: 9px 15px;
+        border-radius: 100px;
+        margin: 10px 0;
+      }
+      h2 {
+        margin: 6% 0;
+        color: #33333367;
+        font-size: 1.5rem;
+      }
+      input[type="email"],input[type =text],
+      input[type="password"] {
+        margin: 4%;
+        padding: 9px 15px;
+        width: 23vw;
+        background-color: #3a3f6e;
+        border-radius: 100px;
+        border: none;
+        outline: none;
+        color: aliceblue;
+      }
+      input::placeholder{
+    color:aliceblue;
+    opacity: .5;
+    font-weight: lighter
+  }
+
+      .main2 input{
+        margin:2%;
+        border-radius: 3px;
+      }
+      p u {
+        color:#27adae;
+      }
+      .o {
+        opacity: 0.5;
+        margin: 20px 0;
+      }
+      input[type="checkbox"] {
+        margin-right: 10px;
+        transform: scale(1.2, 1.2);
+      }
+      img{
+        width: 25vw;
+      }
+      .rotate{
+        transform: rotate(-127deg);
+        opacity: 0;
+        transition: .6s;
+      }
+      .main2{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40vw;
+        height: 100vh;
+        background-color: #252a4a;
+        justify-content: center;
+        transform: translateX(200%) skewX(180deg);
+        opacity: 0;
+
+      }
+      .mail2show{
+        transform: translateX(0%) skewX(0deg);
+        opacity: 1;
+      }
+      #ha{
+        margin:4%;
+      }
+      @media (max-width: 1000px){
+        .main, .main2{
+          width: 100vw;
+          height: 100vh;
+        }
+        input[type="email"],input[type =text],
+      input[type="password"]{
+        width: 250px;
+      }
+      input[type = submit]{
+        width: 275px;
+        
+      }
+        img{
+          transform: scale(2,2);
+          
+        }
+      }
+      input[type =submit]:hover{
+       background: transparent;
+       color: aqua; 
+       border: 1px solid rgba(0, 255, 255, 0.418);
+      }
+      u:hover{
+        opacity: .5;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="main" action="./adminlogin.php" method="post">
+        <img src="./images//Asset 1.svg" alt="">
+      <h2>Log In</h2>
+      <input type="email" required name="email" id="" placeholder="Enter your Email" />
+      <input type="password" required name="password" id="" placeholder="Enter your password" />
+      <div class="check" title="this field is disabled">
+        <input type="checkbox" name="" id="" />
+        <p style="color: rgba(240, 248, 255, 0.712);">Remember Me</p>
+      </div>
+      <input type="submit" value="Log In" name="submit"/>
+      <u class="o" title="this field is disabled">Forgot password</u>
+
+      <p  onclick="forgotpass()">Don't have an account, <u>Sign Up</u></p>
+    </form>
+    <form class="main2" action="./signup.php" method="post" onsubmit="mainCheck()">
+      <img src="./images//Asset 1.svg" alt="">
+    <h2>Sign up</h2>
+    <input type="text" required name="fullname" id="fullname" placeholder="Enter your Full name" />
+    <input type="email" required name="email" id="email" placeholder="Enter your Email" />
+    <input type="text" required name="position" id="position" placeholder="Enter the position you hold in the ministry" />
+    
+    <input type="submit" value="Sign up" name="submit"/>
+
+    <p  onclick="forgotpass()" id="ha">Already have an account, <u>Log in</u></p>
+  </form>
+    <script>
+      function forgotpass(){
+        const main = document.querySelector(".main")
+        const main2 = document.querySelector(".main2")
+        main.classList.toggle("rotate")
+        main2.classList.toggle("mail2show")
+      }
+      function mainCheck(){
+        const fullname = document.getElementById("fullname").value
+        const email = document.getElementById("email").value
+        const contact = document.getElementById("contact").value
+        const title = document.getElementById("position").value
+
+        if(fullname.length < 7){
+          event.preventDefault()
+          alert('please provide a valid name')
+        }
+        if(!(email.includes('@ict.go.ug'))){
+          event.preventDefault()
+          alert('please provide a valid email')
+        }
+        if(title.length < 5){
+          event.preventDefault()
+          alert('please provide the position you hold')
+        }
+      }
+    </script>
+  </body>
+</html>

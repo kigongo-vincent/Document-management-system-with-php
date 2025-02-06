@@ -1,0 +1,22 @@
+07/09/23 09:09:21 - admin@ict.go.ug was used to login
+07/09/23 09:09:18 - admin@ict.go.ug was logged out
+07/09/23 09:09:42 - admin@ict.go.ug was used to login
+07/09/23 10:09:31 - admin@ict.go.ug was used to login
+07/09/23 10:09:36 - admin@ict.go.ug was logged out
+07/09/23 10:09:02 - admin@ict.go.ug was used to login
+07/09/23 10:09:10 - admin@ict.go.ug was used to open 
+07/09/23 10:09:09 - admin@ict.go.ug was used to create an account under the email of monica.alwelo@ict.go.ug
+07/09/23 10:09:50 - admin@ict.go.ug was logged out
+07/09/23 10:09:57 - admin@ict.go.ug was used to login
+07/09/23 10:09:02 - admin@ict.go.ug was used to send ('hey') to the Chat room 
+07/09/23 10:09:15 - admin@ict.go.ug was logged out
+07/09/23 10:09:31 - admin@ict.go.ug was used to login
+07/09/23 10:09:36 - admin@ict.go.ug was used to open newFile.txt
+07/09/23 10:09:30 - admin@ict.go.ug was used to upload jacob.docx under minutes documents
+07/09/23 10:09:38 - admin@ict.go.ug was used to open jacob.docx
+07/09/23 10:09:39 - admin@ict.go.ug was used to apply changes to jacob.docx
+07/09/23 10:09:49 - admin@ict.go.ug was used to open jacob.docx
+07/09/23 10:09:21 - admin@ict.go.ug was logged out
+07/09/23 10:09:59 - admin@ict.go.ug was used to login
+07/09/23 10:09:27 - admin@ict.go.ug was used to open jacob.docx
+07/09/23 10:09:09 - admin@ict.go.ug was logged out
